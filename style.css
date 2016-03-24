@@ -1,0 +1,74 @@
+/*Created By Lisichkina Jane*/
+
+body {
+    background: #eaa9d3;
+}
+
+.container-switch-wrapper {
+    margin: 100px auto;
+}
+
+.switch-container {
+    margin-bottom: 60px;
+}
+
+.switch-tab {
+    cursor: pointer;
+    z-index: 10;
+}
+
+.lis-switch-tab {
+    position: relative;
+    border: 2px solid #870066;
+    background: #be74d2;
+    padding: 20px;
+    height: 260px;
+}
+
+.lead-foto-canvas {
+    margin: 0 auto;
+    padding: 9px;
+    width: 280px;
+    height: 280px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.lead-foto1 {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background: url(image/photo.png);
+}
+
+.lead-foto2 {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background: url(image/photo.png);
+}
+
+.lead-foto3 {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background: url(image/photo.png);
+}
+
+.visible {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.active .foto-canvas {
+    border: 1px solid #870066;
+    border-radius: 50%;
+    transition: 2s border ease;
+}
+
+.active .foto-canvas:hover {
+    transform: scale(1.1);
+}
